@@ -6,6 +6,8 @@ Parallel version of [multistream](https://github.com/feross/multistream)
 npm install parallel-multistream
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/parallel-multistream.svg?style=flat)](http://travis-ci.org/mafintosh/parallel-multistream)
+
 ## Usage
 
 ``` js
