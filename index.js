@@ -3,7 +3,7 @@ var util = require('util')
 var fifo = require('fifo')
 
 var toStreams2 = function(s) {
-  if (typeof s === 'function' || s._readableState) return s
+  if (s._readableState) return s
   var wrap = new stream.Readable().wrap(s)
   if (s.destroy) wrap.destroy = s.destroy.bind(s)  
   return wrap  
