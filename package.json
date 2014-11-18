@@ -1,0 +1,21 @@
+{
+  "name": "parallel-multistream",
+  "version": "0.0.0",
+  "description": "WIP - nothing to see here",
+  "main": "index.js",
+  "dependencies": {
+    "fifo": "^0.2.0",
+    "readable-stream": "^1.0.33"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/parallel-multistream.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/parallel-multistream/issues"
+  },
+  "homepage": "https://github.com/mafintosh/parallel-multistream"
+}
