@@ -1,7 +1,7 @@
 {
   "name": "parallel-multistream",
   "version": "0.0.0",
-  "description": "WIP - nothing to see here",
+  "description": "Parallel version of multistream",
   "main": "index.js",
   "dependencies": {
     "fifo": "^0.2.0",
