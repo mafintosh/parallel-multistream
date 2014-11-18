@@ -14,6 +14,8 @@ npm install parallel-multistream
 var parallel = require('parallel-multistream')
 
 var stream = parallel([stream1, stream2, stream3])
+// or incase of an object stream
+var stream = parallel.obj([stream1, stream2, stream3])
 
 stream.on('data', function(data) {
   // 1st: data will be from stream1
