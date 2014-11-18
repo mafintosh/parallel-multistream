@@ -14,6 +14,8 @@ var Parallel = function(streams, opts) {
 
   stream.Readable.call(this, opts)
   this.destroyed = false
+  this._forwarding = false
+  this._drained = false
   this._queue = fifo()
   for (var i = 0; i < streams.length; i++) this.add(streams[i])
   this._current = this._queue.node
